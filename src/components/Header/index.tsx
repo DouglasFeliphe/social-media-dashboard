@@ -10,7 +10,7 @@ import {
   Divider,
   ButtonSwitch,
 } from "./styles";
-import { shade } from "polished";
+import { backgroundImages, linearGradient, shade } from "polished";
 
 interface Props {
   toggleTheme(): void;
@@ -28,14 +28,15 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
         <SwitchTitle>Dark Mode</SwitchTitle>
         <ButtonSwitch
           onChange={toggleTheme}
-          checked={title === "light" ? false : true}
+          checked={title === "light" ? true : false}
           checkedIcon={false}
           uncheckedIcon={false}
-          height={10}
-          width={40}
+          // height={10}
+          // width={40}
           handleDiameter={20}
-          offColor={shade(0.15, colors.primary)}
-          onColor="#f0f0f5"
+          offColor={colors.toggle}
+          onColor={shade(0.15, colors.toggle)}
+          // onColor={backgroundImages}
         />
       </SwitchContainer>
     </Container>
