@@ -33,3 +33,17 @@ Make sure to include all source code in the repository.
 Please organize, design, test, and document your code as if it were going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
 
 All the best and happy coding.
+
+
+### How to run?
+<ul>
+    <li>Download the folder</li>
+    <li>go to "frontend" folder</li>
+    <li>run <code>npm install</code></li>
+    <li>run <code>npm start</code></li>
+</ul>
+
+### Work done:
+
+![image](https://user-images.githubusercontent.com/28652407/153997261-5f17dbf2-1de0-407a-986a-e57403821461.png)
+
