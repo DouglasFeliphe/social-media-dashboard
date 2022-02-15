@@ -45,5 +45,12 @@ All the best and happy coding.
 
 ### Work done:
 
+![image](https://user-images.githubusercontent.com/28652407/153999161-f62be4c6-f143-45bf-bb19-6a548f2da991.png)
+![image](https://user-images.githubusercontent.com/28652407/153999185-de111091-e0f8-4cfb-b031-506e89fd40f6.png)
+
 ![image](https://user-images.githubusercontent.com/28652407/153997261-5f17dbf2-1de0-407a-986a-e57403821461.png)
+![image](https://user-images.githubusercontent.com/28652407/153999111-4dce934e-ba3d-462a-a00a-6530436316bf.png)
+
+
+
 
