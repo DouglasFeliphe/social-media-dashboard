@@ -1,4 +1,13 @@
-import { CardContainer } from "./styles";
+import ArrowUpwardIcon from "@mui/icons-material/KeyboardArrowUp";
+import imgSvg from "../../images/icon-facebook.svg";
+import {
+  CardContainer,
+  CardSubcontainer,
+  CardUser,
+  CardCounts,
+  CardCountsSubtext,
+  CardPercentage,
+} from "./styles";
 
 interface Props {
   title: string;
@@ -6,21 +15,21 @@ interface Props {
   icon: string;
 }
 
-function Card({ title, value, icon }: Props) {
+function Card() {
   return (
-    <div className="card">
-      <div className="card-header">
-        <div className="card-header-icon">
-          <i className={icon}></i>
-        </div>
-        <div className="card-header-title">
-          <h3>{title}</h3>
-        </div>
-      </div>
-      <div className="card-content">
-        <p>{value}</p>
-      </div>
-    </div>
+    <CardContainer>
+      <CardUser>
+        <img src={imgSvg} alt="card_image" width={25} height={25} />
+        <span>@nathanf</span>
+      </CardUser>
+      <CardSubcontainer>
+        <CardCounts>10444</CardCounts>
+        <CardCountsSubtext>FOLLOWERS</CardCountsSubtext>
+      </CardSubcontainer>
+      <CardPercentage>
+        <ArrowUpwardIcon style={{ borderWidth: 1 }} /> 99 Today
+      </CardPercentage>
+    </CardContainer>
   );
 }
 
