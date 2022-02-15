@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+### Objective
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Your challenge is to build a responsive Social Media Dashboard and get it looking as close to the design as possible.
 
-## Available Scripts
+### Brief
 
-In the project directory, you can run:
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. There is also a `style-guide.md` file, which contains some of the information you'll need, such as color palette and fonts.
 
-### `npm start`
+-   Use **TypeScript** and **React**
+-   View the optimal layout for the site depending on their device's screen size
+-   See hover states for all interactive elements on the page
+-   Toggle color theme to their preference
+    -   Persist this setting in localStorage
+-   Surprise us! Add a feature that you think would work well here (for instance, flip the cards on click, to reveal information on the back)
+    -   Describe the feature in a separate markdown file
+-   **Bonus** Allow the cards to be rearranged (Drag & Drop) and persist the location to localStorage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You will find all the required assets in the `/images` folder. The assets are already optimized.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Evaluation Criteria
 
-### `npm test`
+-   **TypeScript** best practices
+-   Show us your work through your commit history
+-   We're looking for you to produce working code, with enough room to demonstrate how to structure components in a small program
+-   Completeness: did you complete the features?
+-   Correctness: does the functionality act in sensible, thought-out ways?
+-   Maintainability: is it written in a clean, maintainable way?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Deliverables
 
-### `npm run build`
+Make sure to include all source code in the repository. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Please organize, design, test, and document your code as if it were going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+All the best and happy coding.
