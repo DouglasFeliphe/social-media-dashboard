@@ -11,7 +11,7 @@ export default {
     subtext: "hsl(230, 22%, 74%)",
     toggle: "hsl(210, 78%, 56%)",
     card_bg: "hsl(228, 28%, 20%)",
-    card_bg_active: "hsl(232, 19%, 15%)",
-    card_bg_hover: "hsl(228, 28%, 20%)",
+    card_bg_active: "hsl(228, 28%, 20%)",
+    card_bg_hover: "hsl(232, 19%, 15%)",
   },
 };

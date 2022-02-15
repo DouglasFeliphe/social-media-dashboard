@@ -6,7 +6,7 @@ export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 25%;
+  top: 30%;
 
   @media (min-width: 1440px) {
     flex-direction: row;
